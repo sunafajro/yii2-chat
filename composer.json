@@ -1,0 +1,34 @@
+{
+    "name": "sunafajro/yii2-chat",
+    "description": "Простой чат для yii2 приложения",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "chat"
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeny Belkin",
+            "email": "sunafajro@gmail.com"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/sunafajro/yii2-chat"
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sunafajro\\chat\\": "/src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
